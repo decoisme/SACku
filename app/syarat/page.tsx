@@ -1,0 +1,8 @@
+import Link from "next/link";
+import { SiteNav } from "@/components/site-nav";
+
+export const metadata = { title: "Syarat Layanan | SACku", description: "Syarat penggunaan SACku — draft untuk ditinjau sebelum publikasi." };
+
+export default function TermsPage() {
+  return <><SiteNav /><main className="platform-page legal-page"><div className="eyebrow">DOKUMEN KEBIJAKAN · DRAFT</div><h1>Syarat<br /><em>layanan.</em></h1><div className="legal-draft-banner">Draft ini belum menjadi syarat resmi. SACku perlu mengisi detail penyelenggara, layanan yang telah memperoleh izin, ketentuan pembayaran dan pembatalan, perubahan jadwal, tanggung jawab para pihak, mekanisme pengaduan, serta tinjauan hukum sebelum publikasi.</div><section><h2>Informasi perjalanan</h2><p>Informasi paket, harga, jadwal, penerbangan, hotel, kuota, dan fasilitas harus dikonfirmasi secara tertulis melalui kanal resmi sebelum jamaah mendaftar atau membayar. Informasi contoh pada SACku bukan penawaran yang mengikat.</p></section><section><h2>Pendaftaran dan pembayaran</h2><p>Jangan mengirim pembayaran ke rekening yang tidak diverifikasi melalui kanal resmi SACku. Alur pendaftaran, jadwal pembayaran, bukti transaksi, pengembalian dana, dan pembatalan perlu ditetapkan secara jelas setelah layanan pembayaran aktif.</p></section><section><h2>Layanan Haji</h2><p>Informasi atau penawaran Haji Khusus hanya boleh ditampilkan setelah status izin serta otorisasi layanan yang berlaku diverifikasi oleh SACku. Tidak ada layanan Haji yang dapat dipesan melalui demo ini.</p></section><p className="legal-date">Status: draft untuk ditinjau · Belum berlaku sebagai syarat resmi.</p><Link href="/">Kembali ke SACku</Link></main></>;
+}
